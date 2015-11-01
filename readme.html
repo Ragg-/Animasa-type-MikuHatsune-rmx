@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>あにまさ式初音ミクv2 (Ragg remix) Readme</title>
+
+		<style>
+			* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+			html, body {margin: 0;}
+			body { font-size:13px; color: #333; font-family: 'メイリオ', sans-serif; border-top: 8px solid #04e0ee;}
+			h2 { margin: .1em 0 1em; font-size: 20px; font-weight: normal; line-height: 1;}
+			h2::before { content: ""; display: inline-block; width: 1em; height: 1em; margin-right: .5em; border-radius: .5em; background-color: #04e0ee; vertical-align: bottom;}
+			p { margin-bottom: 0; }
+			table { margin-top: 1em; font-size:13px; }
+			.section { max-width: 720px; width: 100%; margin: 0 auto ;  padding: 32px 24px; border-bottom: 4px double #04e0ee;}
+			.section:last-child { border-bottom: none;}
+			.p--no-bottom-margin { margin-bottom: 0;}
+			.text-center {text-align: center;}
+			.text-muted {color: #999;}
+			.facial-list { margin-bottom: .5em; padding-left: 0; list-style: none;}
+			.facial-list h3 { margin: 0; padding: 0;}
+			.facial-list li { padding-left: 1em; }
+		</style>
+	</head>
+
+	<body>
+		<div class="section">
+			<h2>はじめに</h2>
+
+			<table border>
+				<caption>あにまさ式初音ミクv2 (Ragg remix)</caption>
+				<tr><td>モデル製作</td><td>あにまさ 様</td></tr>
+				<tr><td>アレンジ</td><td>Ragg (<a href="https://twitter.com/_ragg_">@_ragg_</a>)</td></tr>
+				<tr><td>バージョン</td><td>1.0</td></tr>
+				<tr><td>Copyright</td><td>CRYPTON FUTURE MEDIA, INC</td>
+			</table>
+
+			<p>
+			このモデルは初音ミク販売元であるCRYPTON FUTURE MEDIA様や、元モデル作者のあにまさ様などの
+			権利者の方からの要望などで予告なく配布を停止する場合があります。<br>
+			以下のガイドラインをよく読み、内容に違反しない利用をお願いします。
+			</p>
+
+			<table border>
+				<tr><td><a href="http://piapro.jp/license/pcl">ピアプロ・キャラクター・ライセンス</A></td></tr>
+				<tr><td><a href="http://piapro.jp/license/character_guideline">ピアプロ内「キャラクター利用のガイドライン」</A></td></tr>
+			</table>
+		</div>
+
+		<div class="section">
+			<h2>このモデルについて</h2>
+
+			<p>
+				このモデルはMMDバンドルモデルである「初音ミクv2 ver2.3」を元に<br/>
+				主にアニメチックな表現を目的とした表情の追加や気になった不具合などを修正したモデルです。<br>
+			</p>
+
+			<p>
+				このモデルには、<strong>細かな表情の調整ができる通常版</strong>、<strong>一部の表情が他の表情にまとめられたreduced版</strong>があります。<br>
+				reduced版にはv1.0時点で、あ～おと肺呼吸、鼻の挙動が統合されています。<br>
+			</p>
+
+			<p>
+				ある程度の不具合修正は行っていますが、まだ気づかない不具合が残っている可能性があります。<br>
+				<span style="color:red;">この改変モデルに不具合を発見した場合は改変者であるラグ(<a href="https://twitter.com/_ragg_">Twitter</a>)にご報告ください。</span>
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>使用する前に</h2>
+
+			<p>
+				このモデルを使いだす時に設定しておくといい感じになる表情の一覧です。<br>
+				お好みで設定してみてください。<br>
+			</p>
+
+			<table border cellspacing="0">
+				<tr><td>瞳孔無・瞳孔白・瞳孔濃度</td><td>お好みで設定してください。</td></tr>
+				<tr><td>い歯なし</td><td>従来通りの動作をさせたい場合、この表情のスライダを最大に設定してください。</td></tr>
+				<tr><td>肺呼吸</td><td>口をひらかせる前に前にある程度の値をセットしておいてください。（あらかじめ肺を膨らませておく）</td></tr>
+				<tr><td>袖口小</td><td>袖の位置に応じて。</td></tr>
+				<tr><td>ナンバー無し</td><td>お好みで設定してください。</td></tr>
+				<tr><td>爪あり</td><td>お好みで設定してください。</td></tr>
+			</table>
+		</div>
+
+		<div class="section">
+			<h2>色の設定に関する変更点</h2>
+
+			<p>
+				材質の色が色定義用のテクスチャによって設定されています。<br>
+				"\tx\colors\"に保存されている画像ファイルに各材質の色が書きこまれています。<br>
+				このフォルダに保存されている画像ファイルを直接編集することでPMDEを使用せずに色の変更を行うことが出来ます。<br>
+			</p>
+
+			<p>
+				これにより、照明が明るく設定されている環境下で、極端に肌が白くなってしまう現象が改善されます。<br>
+				その引換として従来の照明設定では望んだ色相が得られなくなる場合がありますのでご注意ください。<br>
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>表情一覧</h2>
+
+			<ul class="facial-list">
+				<h3>- まゆ</h3>
+				<li class="text-muted">┗ 標準モデルから変更はありません</li>
+			</ul>
+
+			<ul class="facial-list">
+				<h3>- 目</h3>
+				<li>┣<b>瞳小</b>　左右分離しました。
+				<li>┣<b>猫目</b>　通常の瞳小よりも縦長な瞳小です。
+				<li>┣<b>瞳孔</b>　瞳よりもさらに小さく瞳孔を付け足しました。表情から消すことも可能です。
+				<li>┃┣<b>瞳孔濃度</b> 瞳孔の濃さ(不透明度)を増加させます。
+				<li>┃┗<b>瞳孔白</b> 瞳孔を白色にします。
+				<li>┣<b>目後退</b>　瞳を内側に引っ込めることで瞳の端が貫通してキモくなるのを防ぎます。半分くらいがおすすめ
+				<li>┗<b>目光前</b>　目のハイライトを前に出します。
+			</ul>
+
+			<ul class="facial-list">
+				<h3>-リップ</h3>
+				<li>┣<b>あ</b>　元のモデルより気持ち小さめになっています。
+				<li>┣<b>い</b> 元のモデルより気持ち小ｓ(ry
+					<li>┃┗<b>い歯なし</b>　「い」をした時に、下の歯をでないようにします。
+				<li>┣<b>え</b>　「あ=0.2,い=0.65」の形状です。
+				<li>┣<b>にやり2</b> 通常のニヤリよりも口をちゃんと閉じるものです。
+				<li>┣<b>下歯あり</b>　下の歯を生やします。位置はボーンから調整してください。
+				<li>┣<b>上歯</b>　上の歯を伸ばします。
+					<li>┃┗<b>上歯2</b>　真ん中ほど長く、端に行くほど短い(軽いU字型)。アニメ的な上の歯の生やし方をします。
+				<li>┣<b>鼻ピク</b>　鼻先を下に動かします。
+				<li>┗<b>肺呼吸</b>　胸が少し膨らみます。
+			</ul>
+
+			<ul class="facial-list">
+				<h3>-その他</h3>
+				<li>┣<b>ヘッドセット無し</b>　そのまんまです。
+				<li>┣<b>頬紅1</b>　ポリゴンで描画される横長の楕円の頬紅を出します。
+					<li>┃┗<b>頬紅1押出</b> 頬紅1をZ-（前）方向に移動させます。
+				<li>┣<b>頬紅2</b>　テクスチャで描画される濃いピンク色の頬紅を出します。
+					<li>┃┗<b>頬紅2押出</b> 頬紅2をZ-（前）方向に(ry
+				<li>┣<b>頬紅3</b>　テクスチャで描画される薄いピンク色の(ry
+					<li>┃┗<b>頬紅3</b>　頬紅3を(ry
+				<li>┣<b>頬照れ</b> テクスチャで描画される赤色の(ry
+					<li>┃┗<b>頬照れ押出</b>　頬照ｒ(ry
+				<li>┣<b>照れ</b>　鼻を中心に両頬全体に展開する照れです。
+					<li>┃┗<b>照れ押出</b> 照れを(ry
+				<li>┣<b>青ざめ</b> 顔を半透明の青で覆い、イラつきを表現できます。
+					<li>┃┣<b>黒ざめ</b>　顔を半透明の黒で覆い怒っている様子を表現できます。
+					<li>┃┣<b>逆青・黒ざめ</b> グラデーションの進行方向が逆向きの青ざめ・黒ざめです。
+					<li>┃┣<b>目隠し</b>　青ざめ黒ざめと併用するとアニメチックなキレ表現ができます。
+					<li>┃┗<b>青ざめ濃度</b> 数値が高くなるほど透明になります。(青ざめ・黒ざめ系を一括で制御します。)　
+				<li>┣<b>怒り1,2</b>　ムカつきマークを出します。専用ボーンと関連付けてあるので発生位置を自由に選べます。
+				<li>┣<b>涙</b>　目の端っこに涙を溜めさせます。
+					<li>┃┣<b>涙拡大</b> 涙を大きくします。左右分離済みです。
+					<li>┃┗<b>涙幅広</b>　涙をさらに端に移動させます。
+				<li>┣<b>八重歯</b>　八重歯を出します。
+					<li>┃┣<b>八重歯強</b>　さらに長い八重歯を出します。
+					<li>┃┗<b>八重鈍角</b>　八重歯の先端を丸めます。
+				<li>┣<b>ネコミミ</b>　ネコミミを出します。　
+					<li>┃┣<b>猫耳Z縮小</b>　ネコミミの奥行きを縮めます。　
+					<li>┃┗<b>猫耳縮小</b>　ネコミミ全体を縮小します。　
+				<li>┣<b>袖口小</b>　袖口を小さくします。貫通対策で袖を短くしたときに有効。
+				<li>┣<b>ナンバー無し</b>　左肩のナンバー表示をオフにします。
+				<li>┣<b>爪あり</b>　爪を出します。
+					<li>┃┗<b>猫爪</b> 爪の先端を鋭利にします。
+				<li>┗<b>緑化</b> 髪の毛などの色の緑色を強くし、元のモデルの色調に近づけます。
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2>更新履歴</h2>
+
+			<Table border>
+				<tr>
+					<td>日付</td>
+					<td>バージョン</td>
+					<td>内容</td>
+				</tr>
+				<tr>
+					<td>2015/11/02</td>
+					<td>1.0</td>
+					<td>再公開</td>
+				</tr>
+				<tr>
+					<td>2011/08/12</td>
+					<td></td>
+					<td>
+						不正法線があった問題を修正。<br>
+						一部材質のテクスチャパスを間違えていたので修正。<br>
+						表示枠を整理。
+					</td>
+				</tr>
+				<tr>
+					<td>2011/08/09</td>
+					<td></td>
+					<td>
+						材質の色の設定をテクスチャ定義に変更。<br>
+						一部スフィア・テクスチャの書き直し、独自トゥーンの追加。<br>
+						準標準ボーンを追加。<br>
+						「ω口」で八重歯が見えてしまう不具合修正。<br>
+						「い歯なし」の挙動を少し変更<br>
+						白目を少し編集しました。<br>
+						瞳孔白,八重鈍角,猫爪を追加。<br>
+						その他
+					</td>
+				</tr>
+				<tr>
+					<td>2011/05/19</td>
+					<td></td>
+					<td>
+						PMXに対応。<br>
+						瞳孔濃度,青ざめ濃度,緑化の設定要素を追加。<br>
+						照れ,逆青・黒ざめ,ネコミミを追加。<br>
+						物理演算調整<br>
+						スフィアマップ・テクスチャをPNGへ変換し、容量を削減。<br>
+						グルーブボーンを追加
+					</td>
+				</tr>
+				<tr>
+					<td>2011/05/01</td>
+					<td></td>
+					<td>左上腕部のナンバーと爪を追加</td>
+				</tr>
+				<tr>
+					<td>2011/04/22</td>
+					<td></td>
+					<td>スフィアマップを全体的に書き直し,新規追加</td>
+				</tr>
+				<tr>
+					<td>2011/04/05</td>
+					<td></td>
+					<td>感情表現用の髪制御用ボーンの追加</td>
+				</tr>
+				<tr>
+					<td>2011/04/04</td>
+					<td></td>
+					<td>配布可能な状態に更新</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
